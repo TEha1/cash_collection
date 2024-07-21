@@ -2,10 +2,10 @@
 
 ## Project Features
 - User Authentication: Secure login and registration for users.
-- Dashboard: Overview of collections, payments, and user activities.
-- Transaction Management: Add, view, update, and delete transactions.
-- Reports: Generate and export reports on collections and payments.
-- Notifications: Email notifications for important events.
+- User Profile Management: Update user profiles and manage user data.
+- Cash Collection Management: Track and manage cash collections.
+- Payment Tracking: Record and monitor payments.
+- Reports: Generate detailed reports on cash collections and payments.
 - Multi-language Support: Localized content for multiple languages.
 
 ## Endpoints
