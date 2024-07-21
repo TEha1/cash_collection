@@ -1,0 +1,10 @@
+Django==4.2.14
+djangorestframework==3.15.2
+drf-yasg[validation]
+django-crontab==0.7.1
+psycopg2-binary==2.8.6
+django-environ==0.11.2
+coverage==7.6.0
+click==8.0.4
+black==22.3.0
+flake8==7.1.0

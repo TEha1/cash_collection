@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-21 23:20+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+#: cash_collection/settings.py:130
+msgid "Arabic"
+msgstr ""
+
+#: cash_collection/settings.py:131
+msgid "English"
+msgstr ""
+
+#: collection/models/collection.py:10
+msgid "task"
+msgstr ""
+
+#: collection/models/collection.py:15 collection/models/collection.py:50
+msgid "amount"
+msgstr ""
+
+#: collection/models/collection.py:19 collection/models/task.py:34
+msgid "collected at"
+msgstr ""
+
+#: collection/models/collection.py:23
+msgid "delivered"
+msgstr ""
+
+#: collection/models/collection.py:28 collection/models/delivery.py:20
+msgid "delivered at"
+msgstr ""
+
+#: collection/models/collection.py:32
+msgid "Collection"
+msgstr ""
+
+#: collection/models/collection.py:33
+msgid "Collections"
+msgstr ""
+
+#: collection/models/collection.py:45 collection/models/delivery.py:10
+msgid "collector"
+msgstr ""
+
+#: collection/models/collection.py:52
+msgid "creation date"
+msgstr ""
+
+#: collection/models/collection.py:53
+msgid "status"
+msgstr ""
+
+#: collection/models/collection.py:56
+msgid "Collection Log"
+msgstr ""
+
+#: collection/models/collection.py:57
+msgid "Collection Logs"
+msgstr ""
+
+#: collection/models/delivery.py:16
+msgid "manager"
+msgstr ""
+
+#: collection/models/delivery.py:25
+msgid "collections"
+msgstr ""
+
+#: collection/models/delivery.py:29
+msgid "Delivery"
+msgstr ""
+
+#: collection/models/delivery.py:30
+msgid "Deliveries"
+msgstr ""
+
+#: collection/models/roles.py:14 collection/models/roles.py:70
+msgid "user"
+msgstr ""
+
+#: collection/models/roles.py:20
+msgid "balance"
+msgstr ""
+
+#: collection/models/roles.py:24
+msgid "frozen"
+msgstr ""
+
+#: collection/models/roles.py:29
+msgid "last collected date time"
+msgstr ""
+
+#: collection/models/roles.py:33
+msgid "Cash Collector"
+msgstr ""
+
+#: collection/models/roles.py:34
+msgid "Cash Collectors"
+msgstr ""
+
+#: collection/models/roles.py:74
+msgid "Manager"
+msgstr ""
+
+#: collection/models/roles.py:75
+msgid "Managers"
+msgstr ""
+
+#: collection/models/task.py:15
+msgid "cash collector"
+msgstr ""
+
+#: collection/models/task.py:19
+msgid "customer name"
+msgstr ""
+
+#: collection/models/task.py:23
+msgid "customer address"
+msgstr ""
+
+#: collection/models/task.py:28
+msgid "amount due"
+msgstr ""
+
+#: collection/models/task.py:38
+msgid "Task"
+msgstr ""
+
+#: collection/models/task.py:39
+msgid "Tasks"
+msgstr ""
+
+#: collection/views/delivery.py:66
+msgid "Collection does not exist"
+msgstr ""
+
+#: collection/views/task.py:41
+msgid "No tasks yet"
+msgstr ""

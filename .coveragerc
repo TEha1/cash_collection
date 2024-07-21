@@ -1,0 +1,17 @@
+[run]
+branch = True
+source = .
+omit =
+    libs/*
+    */tests/*
+    */migrations/*
+    manage.py
+    venv/*
+
+[report]
+show_missing = True
+skip_covered = False
+
+[html]
+title = Cash Collection - Code Coverage
+directory = reports/tests/htmlcov

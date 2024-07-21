@@ -1,0 +1,56 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+
+exclude: "^docs/|/migrations/"
+default_stages: [ commit ]
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.2.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      - id: debug-statements
+
+  - repo: local
+    hooks:
+      - id: django-check
+        name: Check django project for potential problems
+        entry: sh -c 'python manage.py check'
+        types:
+          - python
+        pass_filenames: false
+        language: system
+
+      - id: django-check-migrations
+        name: Check django project for missing migrations.
+        entry: sh -c 'python manage.py makemigrations --check --dry-run collection'
+        files: models.py
+        types:
+          - python
+        pass_filenames: false
+        language: system
+
+      - id: django-check-test
+        name: Check django project for failed unit test.
+        entry: sh -c 'coverage run manage.py test & echo coverage report'
+        types:
+          - python
+        pass_filenames: false
+        language: system
+
+  - repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+      - id: black
+
+  - repo: https://github.com/PyCQA/flake8
+    rev: 4.0.1
+    hooks:
+      - id: flake8
+        additional_dependencies: [ black ]
+        exclude: ^docs/|/migrations/|/tests/|/__init__.py
+        args: [--max-line-length=100]
