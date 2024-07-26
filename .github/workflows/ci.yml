@@ -56,4 +56,4 @@ jobs:
     - name: Run Django Unit Test
       run: |
         coverage run manage.py test
-        echo coverage report
+        coverage report
