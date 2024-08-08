@@ -6,6 +6,7 @@ omit =
     */tests/*
     */migrations/*
     manage.py
+    cash_collection/*
     venv/*
 
 [report]
